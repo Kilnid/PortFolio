@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="author" content="Kilian ide">
+    <meta name="description" content="Portfolio Kilian ide, De diplômé ISEN et développeur diplomé D.U.T Informatique">
+
+    <title>Portfolio Kilian Ide - Développeur </title>
+
+    <!-- Manifest and icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" type="image/png" href="assets/images/MonLogo.png">
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- CSS Style-->
+    <style>
+        nav {
+            background-color: rgba(28, 53, 64, 0.5);
+            color: #212529;
+        }
+
+        header {
+            background-color: #263f4c;
+            color: #ffffff;
+        }
+
+        footer {
+            background-color: #263f4c;
+            color: white;
+        }
+
+        #presentation {
+            background-color: lightgray;
+        }
+
+        #career {
+            background-color: lightgray;
+        }
+
+        #icon-box-shadow {
+            padding: 20px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            border-radius: 10px;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-center" data-offset="80">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark bg-blue-scrolled fixed-top navbar-expand-lg" role="navigation">
+        <a class="navbar-brand d-lg-none" href="#">
+            <img src="assets/images/MonLogo.png" width="40" height="40" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <div class="navbar-side navbar-nav d-none d-lg-flex">
+                <a class="navbar-brand nav-item" href="#">
+                    <img src="assets/images/MonLogo.png" width="40" height="40" alt="logo">
+                </a>
+            </div>
+            <div class="navbar-center navbar-nav justify-content-around">
+                <a class="nav-item nav-link animated slideInDown delay-200ms" href="#presentation">Présentation</a>
+                <a class="nav-item nav-link animated slideInDown delay-300ms" href="#skills">Compétences</a>
+                <a class="nav-item nav-link animated slideInDown delay-400ms" href="#career">Parcours</a>
+
+                <a class="nav-item nav-link animated slideInDown delay-700ms" href="#contact">Contact</a>
+            </div>
+            <div class="navbar-side navbar-lang navbar-nav flex-row animated slideInDown delay-800ms">
+                <a class="nav-item nav-link active" href="#">FR</a>
+                <!-- <span> / </span>
+                <a class="nav-item nav-link">EN</a> -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="container-fluid p-4  position-relative">
+        <div class="container" height="500px"></div>
+        <div class="header-overlay  d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="header-overlay-text col-lg text-center d-flex align-items-center flex-column m-4 p-4">
+                        <h1 class="header-overlay-title  fadeIn">Kilian ide - Developpeur</h1>
+                        <div class="header-overlay-subtitle">
+                            <span class="header-overlay-typed"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="header-arrow-container position-relative d-flex justify-content-around p-4 ">
+            <a href="#contact">
+                <i class="fa-solid fa-circle-chevron-down" style="font-size:45px;color:yellowgreen;" class="mx-auto"
+                    alt="continuer"></i>
+            </a>
+            <a href="#presentation">
+                <i class="fa-solid fa-circle-chevron-down" style="font-size:45px;color:mediumseagreen;" class="mx-auto"
+                    alt="continuer"></i>
+            </a>
+        </div>
+
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- PRESENTATION -->
+        <section id="presentation" class="bg-gradient-secondary p-4">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="text-center">PRÉSENTATION</h2>
+                    <hr>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-lg-5 d-flex justify-content-around">
+                        <img src="assets/images/2022_KilianIDE.jpg" class="presentation-face w-50"
+                            alt="photo de profil"></img>
+                    </div>
+                    <div class="col-lg text-center mt-4 mt-0-lg">
+                        <p>
+                            Salut !<br />
+                            Je m'appelle Kilian et je suis developpeur diplômé de l'Institut Universitaire
+                            de Technologie de Reims-Châlons-Charleville.
+                            Je suis aujourd'hui toujours en recherche de formation de Concepteur Fullstack,
+                            je travaille notamment avec C# .NET , PHP et Node JS.
+                            Toujours passionné par la science numérique et les nouvelles Technologie, j'ai hâte
+                            de travailler sur des projets techniquement enrichissants et humain afin de continuer
+                            à développer mes compétences et mes connaissances.
+                        </p>
+
+                        <div class="presentation-links container mt-md-5 mt-3 d-flex justify-content-around">
+                            <a href="" target="_blank"
+                                class="presentation-links-item d-flex flex-column justify-content-around text-black"
+                                id="icon-box-shadow">
+                                <i class="fa-solid fa-file" style="font-size:45px;color:black;" class="mx-auto"
+                                    alt="icone CV"></i>
+                                <span class="mt-2">Mon CV</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kilian-id%C3%A9-4646a61a2/"
+                                class="presentation-links-item d-flex flex-column justify-content-around text-black"
+                                id="icon-box-shadow">
+
+                                <i class="fa-brands fa-linkedin" style="font-size:45px;color:black;"
+                                    alt="icone Linkedin"></i>
+                                <span class="mt-2">Linkedin</span>
+                            </a>
+                            <a href="https://github.com/Kilnid"
+                                class="presentation-links-item d-flex flex-column justify-content-around text-black"
+                                id="icon-box-shadow">
+                                <i class="fa-brands fa-square-github" style="font-size:45px;color:black;"
+                                    alt="icone GitHub"></i>
+                                <span class="mt-2">GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="p-4">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="text-center">COMPÉTENCES</h2>
+                    <hr>
+                </div>
+
+                <div class="row justify-content-around justify-content-xlg-between">
+
+                    <div class="skills-container col-md-5 my-4 text-center">
+                        <div class="skills-container-header d-flex align-items-center justify-content-evenly">
+                            <i class="fa-solid fa-code" class="mr-2 mr-lg-4" alt="icone développement logiciel "
+                                style="font-size:45px;color:black;"></i>
+                            <h3>Développement<br>Logiciel</h3>
+                        </div>
+                        <div
+                            class="skills-container-body mt-2 mx-sm-3 mx-md-1 mx-lg-3 mx-xl-4 row justify-content-between align-last-row">
+                            <div class="skill col-3 d-flex flex-column px-1 py-2 py-sm-3 py-md-2 py-lg-3">
+                                <img src="assets/images/cs.png" width="45px" class="mx-auto"
+                                    alt="icone langage C sharp">
+                                <span class="mt-2">C#</span>
+                            </div>
+                            <div class="skill col-3 d-flex flex-column px-1 py-2 py-sm-3 py-md-2 py-lg-3 ">
+                                <img src="assets/images/dotnet.jpg" width="45px" class="mx-auto"
+                                    alt="icone framework dot net">
+                                <span class="mt-2">.NET</span>
+                            </div>
+                            <div class="skill col-3 d-flex flex-column px-1 py-2 py-sm-3 py-md-2 py-lg-3">
+                                <i class="fa-brands fa-java img-fluid mx-auto" alt="icone langage Java"
+                                    style="font-size:45px;color:orange;"></i>
+                                <span class="mt-2">Java</span>
+                            </div>
+                            <div class="skill col-3 d-flex flex-column px-1 py-2 py-sm-3 py-md-2 py-lg-3">
+                                <i class="fa-brands fa-python" alt="icone langage Python"
+                                    style="font-size:45px;color:cadetblue;"></i>
+                                <span class="mt-2">Python</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-container col-md-5 my-4 text-center  ">
+                        <div class="skills-container-header d-flex align-items-cente justify-content-evenly">
+                            <i class="fa-brands fa-chrome" class="mr-2 mr-lg-4" alt="icone développement Web"
+                                style="font-size:45px;"></i>
+                            <h3>Développement<br>Web</h3>
+                        </div>
+                        <div
+                            class="skills-container-body mt-2 mx-sm-3 mx-md-1 mx-lg-3 mx-xl-4 row justify-content-between align-last-row">
+                            <div
+                                class="skill col-4 d-flex flex-column px-1 py-2 py-sm-3 py-md-2 py-lg-3 justify-content-start">
+                                <i class="fa-brands fa-html5" alt="icone langage HTML"
+                                    style="font-size:45px;color:orange;"></i>
+                                <span class="mt-2">HTML</span>
+                            </div>
+                            <div
+                                class="skill col-4 d-flex flex-column px-1 py-2 py-sm-3 py-md-2 py-lg-3 justify-content-start">
+                                <i class="fa-brands fa-css3-alt" alt="icone langage CSS"
+                                    style="font-size:45px;color:blue;"></i>
+                                <span class="mt-2">CSS</span>
+                            </div>
+                            <div
+                                class="skill col-4 d-flex flex-column px-1 py-2 py-sm-3 py-md-2 py-lg-3 justify-content-start">
+                                <i class="fa-brands fa-square-js" alt="icone langage JS"
+                                    style="font-size:45px;color:green;"></i>
+                                <span class="mt-2">JavaScript</span>
+                            </div>
+
+                            <div
+                                class="skill col-4 d-flex flex-column px-1 py-2 py-sm-3 py-md-2 py-lg-3 justify-content-start">
+                                <img src="assets/images/dotnet.jpg" width="45px" class="mx-auto"
+                                    alt="icone framework ASP dot net core">
+                                <span class="mt-2">ASP.NET Core</span>
+                            </div>
+                            <div
+                                class="skill col-4 d-flex flex-column px-1 py-2 py-sm-3 py-md-2 py-lg-3 justify-content-start">
+                                <i class="fa-brands fa-php" alt="icone langage PHP"
+                                    style="font-size:45px;color:blue;"></i>
+                                <span class="mt-2">PHP</span>
+                            </div>
+                            <div
+                                class="skill col-4 d-flex flex-column px-1 py-2 py-sm-3 py-md-2 py-lg-3 justify-content-start">
+                                <i class="fa-brands fa-symfony" alt="icone framework Symfony"
+                                    style="font-size:45px;"></i>
+                                <span class="mt-2">Symfony</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-container col-md-5 my-4 text-center  ">
+                        <div class="skills-container-header d-flex align-items-center  justify-content-evenly">
+                            <i class="fa-solid fa-database" class="mr-2 mr-lg-4" alt="icone bases de données"
+                                style="font-size:45px;"></i>
+                            <h3>Base de<br>données</h3>
+                        </div>
+                        <div
+                            class="skills-container-body mt-2 mx-sm-3 mx-md-1 mx-lg-3 mx-xl-4 row justify-content-between align-last-row">
+                            <div
+                                class="skill col-6 d-flex flex-column px-1 py-2 py-sm-3 py-md-2 py-lg-3 justify-content-start">
+                                <img src="assets/images/logo-mysql.png" class="mx-auto" width="45px" alt="icone MySQL">
+                                <span class="mt-2">MySQL</span>
+                            </div>
+                            <div
+                                class="skill col-6 d-flex flex-column px-1 py-2 py-sm-3 py-md-2 py-lg-3 justify-content-start">
+                                <img src="assets/images/PhpMyAdmin_logo.svg.png" class="mx-auto" width="45px"
+                                    alt="icone PHPMyAdmin">
+                                <span class="mt-2">PHPMyAdmin</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-container col-md-5 my-4 text-center  ">
+                        <div class="skills-container-header d-flex align-items-center justify-content-evenly">
+                            <i class="fa-solid fa-screwdriver-wrench" class="mr-2 mr-lg-4" alt="icone outils"
+                                style="font-size:45px;"></i>
+                            <h3>Outils</h3>
+                        </div>
+                        <div
+                            class="skills-container-body mt-2 mx-sm-3 mx-md-1 mx-lg-3 mx-xl-4 row justify-content-between align-last-row">
+                            <div
+                                class="skill col-6 d-flex flex-column px-1 py-2 py-sm-3 py-md-2 py-lg-3 justify-content-start">
+                                <i class="fa-brands fa-git-alt" alt="icone logiciel Git"
+                                    style="font-size:45px;color:orange;"></i>
+                                <span class="mt-2">Git</span>
+                            </div>
+                            <div
+                                class="skill col-6 d-flex flex-column px-1 py-2 py-sm-3 py-md-2 py-lg-3 justify-content-start">
+                                <i class="fa-brands fa-github" alt="icone logiciel GitHub" style="font-size:45px;"></i>
+                                <span class="mt-2">GitHub</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CAREER -->
+        <section id="career" class="bg-gray">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="text-center">PARCOURS</h2>
+                    <hr>
+                </div>
+
+                <ul class="timeline p-0">
+                    <li class="timeline-inverted">
+                        <div class="timeline-image  ">
+
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3 class="timeline-time">2023</h3>
+                                <h3>Recherche Formation</h3>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                    Recherche formation
+
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="timeline-inverted">
+                        <div class="timeline-image  ">
+
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3 class="timeline-time">2020-2022</h3>
+                                <h3>Diplôme Universitaire de Technologie Informatique</h3>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                    Obtention du Diplôme Universitaire de Technologie Informatique à l'Institut
+                                    universitaire de technologie de Reims-Châlons-Charleville, site de Reims.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image  ">
+
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3 class="timeline-time">Mars 2022 - Juin 2022</h3>
+                                <h3>Stage à Spie batignolles énergie</h3>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                    Réalisation d'un stage de fin d'étude de douze semaines à Spie Batignolles énergie
+                                    de Compiègne,
+                                    dans le domaine de gestion technique du bâtiment. Cette expérience m'a permis de
+                                    comprendre
+                                    simplement le fonctionnement d'une entreprise mondial et d'exploiter certaines de
+                                    mes Compétences
+                                    de developpeur mais également d'en acquerir de nouvelles et de me familliarisé avec
+                                    des outils nouveaux.
+
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image  ">
+
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3 class="timeline-time">2020</h3>
+                                <h3>Baccalauréat Technologique</h3>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                    Obtention du baccalauréat technologique sciences et technologies de l'industrie et
+                                    du développement durable option
+                                    systèmes d'information et numérique mention Bien au lycée polyvalent J.-M. Carriat.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <!--Chevron de navigation-->
+            <div class="d-flex justify-content-around p-4">
+                <a href="#career">
+                    <i class="fa-solid fa-circle-chevron-up img-fluid" style="font-size:45px;color:yellowgreen;"
+                        class="mx-auto" alt="continuer"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-circle-chevron-up img-fluid" style="font-size:45px;color:mediumseagreen;"
+                        class="mx-auto" alt="continuer"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <footer id="contact" class="container-fluid p-0 position-relative p-4">
+            <div class="contact-overlay d-flex align-items-center">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="text-center">CONTACT</h2>
+                        <hr>
+                    </div>
+
+                    <div class="row">
+                        <div class="contact-scene col-lg-5 d-flex justify-content-around align-items-center"
+                            data-relative-input="true">
+                            <img class="contact-logo img-fluid" src="assets/images/MonLogo.png" alt="logo">
+
+                        </div>
+                        <div class="d-flex row text-center ">
+                            <div>
+                                <i class="fa-solid fa-envelope p-2"></i>
+                                <a href="mailto: ide.kilianpro@gmail.com" class="text-white"
+                                    target="_blank">ide.kilianpro@gmail.com</a>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-location-dot p-2"></i>
+                                <span>Reims, Marne, Grand-Est, France</span>
+                            </div>
+                        </div>
+
+                        <div class="presentation-links container mt-md-5 mt-3 d-flex justify-content-around">
+                            <a href="" target="_blank" id="icon-box-shadow">
+                                <i class="fa-solid fa-file" style="font-size:45px;color:black;" class="mx-auto"
+                                    alt="icone CV"></i>
+
+                            </a>
+                            <a href="https://www.linkedin.com/in/kilian-id%C3%A9-4646a61a2/" id="icon-box-shadow">
+                                <i class="fa-brands fa-linkedin" style="font-size:45px;color:black;"
+                                    alt="icone Linkedin"></i>
+                            </a>
+                            <a href="https://github.com/Kilnid" id="icon-box-shadow">
+                                <i class="fa-brands fa-square-github" style="font-size:45px;color:black;"
+                                    alt="icone GitHub"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="footer-website-info d-flex justify-content-center pt-4">
+               <!-- <a href="#licenses" data-toggle="modal">Licences</a>-->
+                <span class="px-2 px-sm-3 center">Portfolio réalisés par Kilian ide</span>
+            </div>
+            </div>
+        </footer>
+    </main>
+    <!-- <script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
