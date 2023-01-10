@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PortFolio/static/css/main.7d6e70c2.css",
+    "main.js": "/PortFolio/static/js/main.c66bffcd.js",
+    "static/media/2023_KilianIDE_CV-DEV.pdf": "/PortFolio/static/media/2023_KilianIDE_CV-DEV.c4756c9fec167e50923a.pdf",
+    "static/media/2022_KilianIDE.jpg": "/PortFolio/static/media/2022_KilianIDE.e1df59d16ecc43263276.jpg",
+    "static/media/portFolio1.png": "/PortFolio/static/media/portFolio1.fa50df60a7e461708a9f.png",
+    "static/media/headpicture1_transparent.png": "/PortFolio/static/media/headpicture1_transparent.aa023df2eb16a1d83715.png",
+    "static/media/portfolio5.png": "/PortFolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/portfolio2.jpg": "/PortFolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio6.jpg": "/PortFolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/portfolio3.jpg": "/PortFolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/PortFolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "index.html": "/PortFolio/index.html",
+    "main.7d6e70c2.css.map": "/PortFolio/static/css/main.7d6e70c2.css.map",
+    "main.c66bffcd.js.map": "/PortFolio/static/js/main.c66bffcd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d6e70c2.css",
+    "static/js/main.c66bffcd.js"
+  ]
+}
